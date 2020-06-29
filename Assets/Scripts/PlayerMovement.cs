@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb  = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
-        sprite = GetComponent<SpriteRenderer>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
 
     }
 
@@ -42,20 +42,7 @@ public class PlayerMovement : MonoBehaviour
             
         }
         
-        if (Input.GetButtonDown("Crouch"))
-        { 
-            //sprite.sprite = mySprite[1];
-            jumpForce = jumpForce/2;
-            moveSpeed /=2;
-            crouched = true;
-
-        }else if(Input.GetButtonUp("Crouch"))
-        { 
-           // sprite.sprite = mySprite[0];
-            jumpForce *= 2;
-            moveSpeed *= 2;
-            crouched = false;
-        }
+        CheckDanceInput();
         
     }
     void FixedUpdate()
@@ -73,7 +60,38 @@ public class PlayerMovement : MonoBehaviour
         return hit.collider != null;
     }
 
-    
+    void CheckDanceInput()
+    {
+        if (Input.GetButtonDown("Dance1"))
+        { 
+            print("Dance1");
+            sprite.sprite = mySprite[1];
+            // start dance3
+        }else if(Input.GetButtonUp("Dance1"))
+        { 
+            sprite.sprite = mySprite[0];
+        }
+
+        if (Input.GetButtonDown("Dance2"))
+        { 
+            print("Dance2");
+            sprite.sprite = mySprite[2];
+            // start dance3
+        }else if(Input.GetButtonUp("Dance2"))
+        { 
+            sprite.sprite = mySprite[0];
+        }
+
+        if (Input.GetButtonDown("Dance3"))
+        { 
+            print("Dance3");
+            sprite.sprite = mySprite[3];
+            // start dance3
+        }else if(Input.GetButtonUp("Dance3"))
+        { 
+            sprite.sprite = mySprite[0];
+        }
+    }
     
 
 

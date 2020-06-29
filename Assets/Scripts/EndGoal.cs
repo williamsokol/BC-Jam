@@ -5,13 +5,13 @@ using UnityEngine;
 public class EndGoal : MonoBehaviour
 {
     public GameObject find;
-    public UiManager uiManager;
+    //public UiManager uiManager;
 
     // Start is called before the first frame update
     void Start()
     {
        find = GameObject.Find("Manager Holder");
-       uiManager = find.GetComponent<UiManager>();
+       //uiManager = find.GetComponent<UiManager>();
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class EndGoal : MonoBehaviour
         {
            print("you win");
 
-           uiManager.LoadNextLevel();
+           //uiManager.LoadNextLevel();
         }
        
     }
