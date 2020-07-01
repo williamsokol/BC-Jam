@@ -6,6 +6,8 @@ public class PlayerDance : MonoBehaviour
 {
     public Sprite[] mySprite;
     public SpriteRenderer sprite;
+    static public int DanceState;
+    static public int DanceGoal;
     
     // Start is called before the first frame update
     void Start()
@@ -31,41 +33,46 @@ public class PlayerDance : MonoBehaviour
     {
         if (Input.GetButtonDown("Dance1"))
         { 
-            //print("Dance1");
-            sprite.sprite = mySprite[1];
+            SetDance(1);
             // start dance3
         }else if(Input.GetButtonUp("Dance1"))
         { 
-            sprite.sprite = mySprite[0];
+            SetDance(0);
         }
 
         if (Input.GetButtonDown("Dance2"))
         { 
-            print(Hp.instance.playerHp);
-            sprite.sprite = mySprite[2];
+             SetDance(2);
             
             // start dance3
         }else if(Input.GetButtonUp("Dance2"))
         { 
-            sprite.sprite = mySprite[0];
+            SetDance(0);
         }
 
         if (Input.GetButtonDown("Dance3"))
-        { 
-            //print("Dance3");
-            sprite.sprite = mySprite[3];
+        {  
+             SetDance(3);
             // start dance3
         }else if(Input.GetButtonUp("Dance3"))
         { 
-            sprite.sprite = mySprite[0];
+             SetDance(0);
         }
+    }
+
+    void SetDance(int danceType)
+    {
+        sprite.sprite = mySprite[danceType];
+        DanceState = danceType;
     }
 
     public bool BadDancing()
     {
-        if(sprite.sprite == mySprite[2])
+   
+        if(DanceState != DanceGoal && DanceGoal != 5)
         {
             return(true);
+            print(DanceState + " " + DanceGoal);
         }else
         {
             return(false);
