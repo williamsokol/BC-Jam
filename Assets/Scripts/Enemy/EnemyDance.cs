@@ -5,12 +5,14 @@ using UnityEngine;
 public class EnemyDance : MonoBehaviour
 {
     int pickedDance;
+    public EnemyHp enemyHp;
+    public GameObject player;
 
     public Sprite[] enemySprites;
     public SpriteRenderer sprite;
 
     public WaitForSeconds danceGap = new WaitForSeconds(.5f);
-    public WaitForSeconds danceSpeed = new WaitForSeconds(1);
+    public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
 
     void Start()
     {
@@ -19,11 +21,11 @@ public class EnemyDance : MonoBehaviour
     }
 
 
-    public void StartDanceOff(GameObject player)
+    public void StartDanceOff()
     {
-
-        //turn off standard dance
         
+        //turn off standard dance
+        StopCoroutine("SetDanceGoal");
         StartCoroutine("SetDanceGoal");
         
     }
@@ -42,6 +44,15 @@ public class EnemyDance : MonoBehaviour
             yield return danceGap;
 
             PlayerDance.DanceGoal = pickedDance;
+            // if player danced before the dance gap ended
+            if(PlayerDance.DanceState == PlayerDance.DanceGoal)
+            {
+                print("test");
+                enemyHp.hp -= 1;
+            }else
+            {
+                Hp.instance.playerHp -= 1; 
+            }
 
             yield return danceSpeed;
         }

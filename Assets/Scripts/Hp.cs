@@ -34,9 +34,5 @@ public class Hp : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

@@ -8,6 +8,8 @@ public class PlayerDance : MonoBehaviour
     public SpriteRenderer sprite;
     static public int DanceState;
     static public int DanceGoal;
+
+    public GameObject enemy;
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class PlayerDance : MonoBehaviour
     {
         if(BadDancing())
         {
-            Hp.instance.playerHp -= .01f;
+            //Hp.instance.playerHp -= .01f;
         }
     }
 
@@ -68,14 +70,15 @@ public class PlayerDance : MonoBehaviour
 
     public bool BadDancing()
     {
-   
-        if(DanceState != DanceGoal && DanceGoal != 5)
+        // see if your dance is the same or punishment is disabled
+        if(DanceState == DanceGoal || DanceGoal == 5)
         {
-            return(true);
-            print(DanceState + " " + DanceGoal);
+            //print(DanceGoal);
+            //enemy.GetComponent<EnemyHp>().hp -= 1;
+            return(false);
         }else
         {
-            return(false);
+            return(true);
         }
     }
 }

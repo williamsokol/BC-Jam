@@ -17,8 +17,9 @@ public class PlayerDetecter : MonoBehaviour
         //print("test");
         if(other.gameObject.tag == "Player")
         {
-            //print("starting dance");
-            enemyDance.StartDanceOff(other.gameObject);
+            //give both objects ref to each other and start the dance
+            enemyDance.StartDanceOff();
+            
         }
     }
 }
