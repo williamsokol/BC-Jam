@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyDance : MonoBehaviour
 {
+    static public bool isDanceOff;
+    static public GameObject currentEnemy;
+
     int pickedDance;
     public EnemyHp enemyHp;
     public GameObject player;
@@ -11,7 +14,7 @@ public class EnemyDance : MonoBehaviour
     public Sprite[] enemySprites;
     public SpriteRenderer sprite;
 
-    public WaitForSeconds danceGap = new WaitForSeconds(.5f);
+    public WaitForSeconds danceGap = new WaitForSeconds(.6f);
     public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
 
     void Start()
@@ -25,13 +28,16 @@ public class EnemyDance : MonoBehaviour
     {
         
         //turn off standard dance
-        StopCoroutine("SetDanceGoal");
-        StartCoroutine("SetDanceGoal");
+        StopCoroutine("DanceOff");
+        StartCoroutine("DanceOff");
         
     }
 
-    IEnumerator SetDanceGoal()
+    IEnumerator DanceOff()
     {
+        isDanceOff = true;
+        currentEnemy = this.gameObject;
+
         while(true)
         {
             //goal of 5 mean take no dmg
