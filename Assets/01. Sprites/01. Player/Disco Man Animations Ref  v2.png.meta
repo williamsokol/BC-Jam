@@ -1,0 +1,1784 @@
+fileFormatVersion: 2
+guid: 24596395c29d7e94990ec68cbebc7e30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4406500884548438544
+    second: Disco Man Animations Ref  v2_0
+  - first:
+      213: -6156073823304851201
+    second: Disco Man Animations Ref  v2_1
+  - first:
+      213: 1430732083246326676
+    second: Disco Man Animations Ref  v2_2
+  - first:
+      213: 4699584132041592938
+    second: Disco Man Animations Ref  v2_3
+  - first:
+      213: -8589593036396639752
+    second: Disco Man Animations Ref  v2_4
+  - first:
+      213: -7040442691081820715
+    second: Disco Man Animations Ref  v2_5
+  - first:
+      213: 1121455895580643254
+    second: Disco Man Animations Ref  v2_6
+  - first:
+      213: -7752079003004240793
+    second: Disco Man Animations Ref  v2_7
+  - first:
+      213: -9173562147025420220
+    second: Disco Man Animations Ref  v2_8
+  - first:
+      213: 1646426607840589262
+    second: Disco Man Animations Ref  v2_9
+  - first:
+      213: 6756535998265954845
+    second: Disco Man Animations Ref  v2_10
+  - first:
+      213: 2119717107933282319
+    second: Disco Man Animations Ref  v2_11
+  - first:
+      213: 6222717383833656929
+    second: Disco Man Animations Ref  v2_12
+  - first:
+      213: -5782828376706979325
+    second: Disco Man Animations Ref  v2_13
+  - first:
+      213: -1471619893643555412
+    second: Disco Man Animations Ref  v2_14
+  - first:
+      213: 427296037219372068
+    second: Disco Man Animations Ref  v2_15
+  - first:
+      213: -7537361416477930045
+    second: Disco Man Animations Ref  v2_16
+  - first:
+      213: -9100382656902210544
+    second: Disco Man Animations Ref  v2_17
+  - first:
+      213: -6494964582668758741
+    second: Disco Man Animations Ref  v2_18
+  - first:
+      213: 8390955064356650592
+    second: Disco Man Animations Ref  v2_19
+  - first:
+      213: 5234453923838036400
+    second: Disco Man Animations Ref  v2_20
+  - first:
+      213: 5455612062236563639
+    second: Disco Man Animations Ref  v2_21
+  - first:
+      213: 4060912189479453273
+    second: Disco Man Animations Ref  v2_22
+  - first:
+      213: -4227748386028997721
+    second: Disco Man Animations Ref  v2_23
+  - first:
+      213: -4286440921117601310
+    second: Disco Man Animations Ref  v2_24
+  - first:
+      213: -6255014629584929504
+    second: Disco Man Animations Ref  v2_25
+  - first:
+      213: -1710090138825304667
+    second: Disco Man Animations Ref  v2_26
+  - first:
+      213: 6357703285079193702
+    second: Disco Man Animations Ref  v2_27
+  - first:
+      213: 499716441131766856
+    second: Disco Man Animations Ref  v2_28
+  - first:
+      213: 4031214251074895809
+    second: Disco Man Animations Ref  v2_29
+  - first:
+      213: -9176199152110090687
+    second: Disco Man Animations Ref  v2_30
+  - first:
+      213: -6317428482855302485
+    second: Disco Man Animations Ref  v2_31
+  - first:
+      213: -1494796919395612465
+    second: Disco Man Animations Ref  v2_32
+  - first:
+      213: -5221476043824574553
+    second: Disco Man Animations Ref  v2_33
+  - first:
+      213: -7154009000559577929
+    second: Disco Man Animations Ref  v2_34
+  - first:
+      213: 4041581083308791018
+    second: Disco Man Animations Ref  v2_35
+  - first:
+      213: -3373350781822382611
+    second: Disco Man Animations Ref  v2_36
+  - first:
+      213: -2958030428795167757
+    second: Disco Man Animations Ref  v2_37
+  - first:
+      213: -7666283369662916603
+    second: Disco Man Animations Ref  v2_38
+  - first:
+      213: -7088667315699121023
+    second: Disco Man Animations Ref  v2_39
+  - first:
+      213: -4899917226983841535
+    second: Disco Man Animations Ref  v2_40
+  - first:
+      213: 3320748620272396487
+    second: Disco Man Animations Ref  v2_41
+  - first:
+      213: -7185195111391702495
+    second: Disco Man Animations Ref  v2_42
+  - first:
+      213: 1852449174571336824
+    second: Disco Man Animations Ref  v2_43
+  - first:
+      213: 8495484948725190167
+    second: Disco Man Animations Ref  v2_44
+  - first:
+      213: 2255709033910713048
+    second: Disco Man Animations Ref  v2_45
+  - first:
+      213: 8385967998917586273
+    second: Disco Man Animations Ref  v2_46
+  - first:
+      213: -3970879131341836919
+    second: Disco Man Animations Ref  v2_47
+  - first:
+      213: 4918445038432927360
+    second: Disco Man Animations Ref  v2_48
+  - first:
+      213: -5645025024960437267
+    second: Disco Man Animations Ref  v2_49
+  - first:
+      213: 4182459158960735139
+    second: Disco Man Animations Ref  v2_50
+  - first:
+      213: 8802202597941020378
+    second: Disco Man Animations Ref  v2_51
+  - first:
+      213: -9105496528269738422
+    second: Disco Man Animations Ref  v2_52
+  - first:
+      213: -8408151131913412006
+    second: Disco Man Animations Ref  v2_53
+  - first:
+      213: -3733859873172787744
+    second: Disco Man Animations Ref  v2_54
+  - first:
+      213: 7440069373346115247
+    second: Disco Man Animations Ref  v2_55
+  - first:
+      213: -4754148873254000518
+    second: Disco Man Animations Ref  v2_56
+  - first:
+      213: 379348956663855584
+    second: Disco Man Animations Ref  v2_57
+  - first:
+      213: 1686526189928896176
+    second: Disco Man Animations Ref  v2_58
+  - first:
+      213: -5146504576671813129
+    second: Disco Man Animations Ref  v2_59
+  - first:
+      213: 7290130660963202515
+    second: Disco Man Animations Ref  v2_60
+  - first:
+      213: -8861517646449505835
+    second: Disco Man Animations Ref  v2_61
+  - first:
+      213: -5536910142998427935
+    second: Disco Man Animations Ref  v2_62
+  - first:
+      213: -7971870789042132620
+    second: Disco Man Animations Ref  v2_63
+  - first:
+      213: -3920488824815453782
+    second: Disco Man Animations Ref  v2_64
+  - first:
+      213: -3202327411153013935
+    second: Disco Man Animations Ref  v2_65
+  - first:
+      213: 1444823996994636605
+    second: Disco Man Animations Ref  v2_66
+  - first:
+      213: 210724674373767390
+    second: Disco Man Animations Ref  v2_67
+  - first:
+      213: 2277548975350820298
+    second: Disco Man Animations Ref  v2_0
+  - first:
+      213: 7059037007199230217
+    second: Disco Man Animations Ref  v2_1
+  - first:
+      213: 8877807238456195609
+    second: Disco Man Animations Ref  v2_2
+  - first:
+      213: 8542307610555309801
+    second: Disco Man Animations Ref  v2_3
+  - first:
+      213: 5612020520917145441
+    second: Disco Man Animations Ref  v2_4
+  - first:
+      213: 6587397676204969929
+    second: Disco Man Animations Ref  v2_5
+  - first:
+      213: 5707972017891223664
+    second: Disco Man Animations Ref  v2_6
+  - first:
+      213: -1002426920986160958
+    second: Disco Man Animations Ref  v2_7
+  - first:
+      213: -7858495751676048121
+    second: Disco Man Animations Ref  v2_8
+  - first:
+      213: 1085148642534277741
+    second: Disco Man Animations Ref  v2_9
+  - first:
+      213: -6937344375253693584
+    second: Disco Man Animations Ref  v2_10
+  - first:
+      213: -213664202260866482
+    second: Disco Man Animations Ref  v2_11
+  - first:
+      213: -2286577409577043377
+    second: Disco Man Animations Ref  v2_12
+  - first:
+      213: 3973015400390070324
+    second: Disco Man Animations Ref  v2_13
+  - first:
+      213: -391822818020892065
+    second: Disco Man Animations Ref  v2_14
+  - first:
+      213: -2900070044268806311
+    second: Disco Man Animations Ref  v2_15
+  - first:
+      213: -4321752948371670115
+    second: Disco Man Animations Ref  v2_16
+  - first:
+      213: 6029525060731664690
+    second: Disco Man Animations Ref  v2_17
+  - first:
+      213: -5825924142458805404
+    second: Disco Man Animations Ref  v2_18
+  - first:
+      213: -4361161233761949425
+    second: Disco Man Animations Ref  v2_19
+  - first:
+      213: -370454737891491482
+    second: Disco Man Animations Ref  v2_20
+  - first:
+      213: 410787195638537687
+    second: Disco Man Animations Ref  v2_21
+  - first:
+      213: -4680386442821346797
+    second: Disco Man Animations Ref  v2_22
+  - first:
+      213: -6654872345885245942
+    second: Disco Man Animations Ref  v2_23
+  - first:
+      213: -4471215266618424454
+    second: Disco Man Animations Ref  v2_24
+  - first:
+      213: -4034214989223442290
+    second: Disco Man Animations Ref  v2_25
+  - first:
+      213: 6294172871224735656
+    second: Disco Man Animations Ref  v2_26
+  - first:
+      213: -5257219620111226139
+    second: Disco Man Animations Ref  v2_27
+  - first:
+      213: -702939812780408540
+    second: Disco Man Animations Ref  v2_28
+  - first:
+      213: 2918317796056680870
+    second: Disco Man Animations Ref  v2_29
+  - first:
+      213: -3048941731862871698
+    second: Disco Man Animations Ref  v2_30
+  - first:
+      213: -6996874280734646420
+    second: Disco Man Animations Ref  v2_31
+  - first:
+      213: 2637444163501889061
+    second: Disco Man Animations Ref  v2_32
+  - first:
+      213: 2655038981207675623
+    second: Disco Man Animations Ref  v2_33
+  - first:
+      213: 3152840960807784188
+    second: Disco Man Animations Ref  v2_34
+  - first:
+      213: 7814910053874442528
+    second: Disco Man Animations Ref  v2_35
+  - first:
+      213: -5012912574163602472
+    second: Disco Man Animations Ref  v2_36
+  - first:
+      213: -4969976870270411578
+    second: Disco Man Animations Ref  v2_37
+  - first:
+      213: 1856483194797097459
+    second: Disco Man Animations Ref  v2_38
+  - first:
+      213: -533901272348878771
+    second: Disco Man Animations Ref  v2_39
+  - first:
+      213: 298723619753929803
+    second: Disco Man Animations Ref  v2_40
+  - first:
+      213: -8841904815212071922
+    second: Disco Man Animations Ref  v2_41
+  - first:
+      213: -921998197635492495
+    second: Disco Man Animations Ref  v2_42
+  - first:
+      213: -5660380285921221148
+    second: Disco Man Animations Ref  v2_43
+  - first:
+      213: 3792563671899975076
+    second: Disco Man Animations Ref  v2_44
+  - first:
+      213: 3999149301099414834
+    second: Disco Man Animations Ref  v2_45
+  - first:
+      213: -7477454386551210922
+    second: Disco Man Animations Ref  v2_46
+  - first:
+      213: 1887340456693709002
+    second: Disco Man Animations Ref  v2_47
+  - first:
+      213: 8195778244747845494
+    second: Disco Man Animations Ref  v2_48
+  - first:
+      213: -7622498056801164645
+    second: Disco Man Animations Ref  v2_49
+  - first:
+      213: -5180436520554766418
+    second: Disco Man Animations Ref  v2_50
+  - first:
+      213: 3348021226402047331
+    second: Disco Man Animations Ref  v2_51
+  - first:
+      213: 2135348579247701137
+    second: Disco Man Animations Ref  v2_52
+  - first:
+      213: 6926451765725663906
+    second: Disco Man Animations Ref  v2_53
+  - first:
+      213: -4169012808606950927
+    second: Disco Man Animations Ref  v2_54
+  - first:
+      213: 8923041660526212603
+    second: Disco Man Animations Ref  v2_55
+  - first:
+      213: 2641238297019120594
+    second: Disco Man Animations Ref  v2_56
+  - first:
+      213: 946277365316839049
+    second: Disco Man Animations Ref  v2_57
+  - first:
+      213: -4633994957699672127
+    second: Disco Man Animations Ref  v2_58
+  - first:
+      213: 436390626440483826
+    second: Disco Man Animations Ref  v2_59
+  - first:
+      213: -8586580507202924233
+    second: Disco Man Animations Ref  v2_60
+  - first:
+      213: 6531529113664241966
+    second: Disco Man Animations Ref  v2_61
+  - first:
+      213: -938458439393979723
+    second: Disco Man Animations Ref  v2_62
+  - first:
+      213: 4875741113440082133
+    second: Disco Man Animations Ref  v2_63
+  - first:
+      213: -3882853335373234642
+    second: Disco Man Animations Ref  v2_64
+  - first:
+      213: 6391127994628728466
+    second: Disco Man Animations Ref  v2_65
+  - first:
+      213: -636522744905369
+    second: Disco Man Animations Ref  v2_66
+  - first:
+      213: -5679775738535399331
+    second: Disco Man Animations Ref  v2_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd2752e9ba7b9f10800000000000000
+      internalID: 2277548975350820298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9095276f1ccb6f160800000000000000
+      internalID: 7059037007199230217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ab29095ae443b70800000000000000
+      internalID: 8877807238456195609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eed341438f5c8670800000000000000
+      internalID: 8542307610555309801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16718751ee6e1ed40800000000000000
+      internalID: 5612020520917145441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dce6cffb301f290800000000000000
+      internalID: -7858495751676048121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62c0c6e0f83f0f00800000000000000
+      internalID: 1085148642534277741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b037cdb0a99bf90800000000000000
+      internalID: -6937344375253693584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a16034a89e80df0800000000000000
+      internalID: -213664202260866482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a3ab6f5f17440e0800000000000000
+      internalID: -2286577409577043377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430186be47cf22730800000000000000
+      internalID: 3973015400390070324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e8f41937ff8af0800000000000000
+      internalID: -391822818020892065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3b93f8a1e0c7d0800000000000000
+      internalID: -2900070044268806311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b3f41579c0604c0800000000000000
+      internalID: -4321752948371670115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f931d81d2da350800000000000000
+      internalID: 6029525060731664690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ee580cd8262fa0800000000000000
+      internalID: -5825924142458805404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f092a6dd6fa0a73c0800000000000000
+      internalID: -4361161233761949425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610e9ee061ebdaf0800000000000000
+      internalID: -370454737891491482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd505a27c863b500800000000000000
+      internalID: 410787195638537687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a5418f35deb0fb0800000000000000
+      internalID: -4680386442821346797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73c7ee876d03f1c0800000000000000
+      internalID: -4471215266618424454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c7cb67d69308c0800000000000000
+      internalID: -4034214989223442290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a73040e0e4695750800000000000000
+      internalID: 6294172871224735656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea6e050c9a9a07b0800000000000000
+      internalID: -5257219620111226139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4218eb0f6f7ae36f0800000000000000
+      internalID: -702939812780408540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9c8a7d292ff7820800000000000000
+      internalID: 2918317796056680870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61037b16abffa5d0800000000000000
+      internalID: -3048941731862871698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f9eb6a9eb16ee90800000000000000
+      internalID: -6996874280734646420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52615703e751a9420800000000000000
+      internalID: 2637444163501889061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2d2bbe2e798d420800000000000000
+      internalID: 2655038981207675623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfecf3e362421cb20800000000000000
+      internalID: 3152840960807784188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a0d0f943247c60800000000000000
+      internalID: 7814910053874442528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3b3e6c29e8e6ab0800000000000000
+      internalID: -5012912574163602472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccdf995e58170bb0800000000000000
+      internalID: -4969976870270411578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10d5d21ad83c910800000000000000
+      internalID: 1856483194797097459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48148c1f933798f0800000000000000
+      internalID: -533901272348878771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca379ac87452400800000000000000
+      internalID: 298723619753929803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f77fba6e3b4580800000000000000
+      internalID: -8841904815212071922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175d26236876433f0800000000000000
+      internalID: -921998197635492495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5aa04be1a4271b0800000000000000
+      internalID: -5660380285921221148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad26a3d094e1a430800000000000000
+      internalID: 3792563671899975076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23548c7d915df7730800000000000000
+      internalID: 3999149301099414834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cbd694adeba3890800000000000000
+      internalID: -7477454386551210922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8b373552e213a10800000000000000
+      internalID: 1887340456693709002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fd118f3e04db170800000000000000
+      internalID: 8195778244747845494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e24f2762773690800000000000000
+      internalID: -7622498056801164645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb1b1283842ad10800000000000000
+      internalID: 2135348579247701137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a294f9de23bf1060800000000000000
+      internalID: 6926451765725663906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9ddee50f0b426c0800000000000000
+      internalID: -4169012808606950927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db7bfcbc3097a420800000000000000
+      internalID: 2641238297019120594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986e3ba004ad12d00800000000000000
+      internalID: 946277365316839049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71c5f432eb0bfb0800000000000000
+      internalID: -4633994957699672127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f39b4076fe5e0600800000000000000
+      internalID: 436390626440483826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73150e8b58656d880800000000000000
+      internalID: -8586580507202924233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2144149f17a4aa50800000000000000
+      internalID: 6531529113664241966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b25473850de9f2f0800000000000000
+      internalID: -938458439393979723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d81d5bb5bc1aa340800000000000000
+      internalID: 4875741113440082133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e3326b6755d1ac0800000000000000
+      internalID: -3882853335373234642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29666e9ac09d1b850800000000000000
+      internalID: 6391127994628728466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disco Man Animations Ref  v2_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76106eff51dbdfff0800000000000000
+      internalID: -636522744905369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
