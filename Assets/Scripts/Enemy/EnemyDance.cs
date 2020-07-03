@@ -53,11 +53,12 @@ public class EnemyDance : MonoBehaviour
             // if player danced before the dance gap ended
             if(PlayerDance.DanceState == PlayerDance.DanceGoal)
             {
-                print("test");
+//                print("test");
                 enemyHp.hp -= 1;
             }else
             {
-                Hp.instance.playerHp -= 1; 
+                //while(PlayerDance.DanceState != PlayerDance.DanceGoal)
+                //    Hp.instance.playerHp -= .1f; 
             }
 
             yield return danceSpeed;

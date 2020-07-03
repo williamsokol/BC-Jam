@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chords:
   - {fileID: 8300000, guid: bfbaca1162ddaeb40ad0ea1d2f8a616a, type: 3}
-  - {fileID: 8300000, guid: 9e300d08a05c2b747a407b55f59f0bcd, type: 3}
   - {fileID: 8300000, guid: 31d1a3cec3c4c60469dbb2c7c0591beb, type: 3}
+  - {fileID: 8300000, guid: 9e300d08a05c2b747a407b55f59f0bcd, type: 3}
   song: {fileID: 8300000, guid: fdef7996908237241b691b2da7e5a0d5, type: 3}

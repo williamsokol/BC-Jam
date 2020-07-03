@@ -64,7 +64,7 @@ public class PlayerDance : MonoBehaviour
 
     void SetDance(int danceType)
     {
-        sprite.sprite = mySprite[danceType];
+        
         DanceState = danceType;
     }
 

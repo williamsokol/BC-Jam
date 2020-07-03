@@ -52,7 +52,7 @@ public class MusicPlayer : MonoBehaviour
 
     public void playChord(int pickedChord)
     {
-        print ("test");
+//        print ("test");
         chordPlayer.SFXChords(pickedChord);
     }
 

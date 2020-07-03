@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         transform.Translate( Vector2.right * movement);
+        
     }
     public bool IsGrounded()
     {
