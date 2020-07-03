@@ -43,10 +43,10 @@ public class PlatformDance : MonoBehaviour
     void SetDanc(int pickedDance)
     {
         //play music que
-        
+        print("Dance");
         musicPlayer.playChord(pickedDance);
         //change light colors
-          
+        GetComponent<LightColors>().ShiftColor(pickedDance-1);  
         //
 
     }

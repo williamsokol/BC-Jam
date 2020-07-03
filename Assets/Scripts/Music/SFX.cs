@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SFX : MonoBehaviour
 {
+    //int count =0;
     private AudioSource soundPlayer;
     public AudioClip[] sounds;
     // Start is called before the first frame update
@@ -18,7 +19,8 @@ public class SFX : MonoBehaviour
 
     public void SFXChords(int chord)
     {
-        print("this is " + chord);
+        //print(count);
+        //count++;
         soundPlayer.clip = sounds[chord-1];
         soundPlayer.Play();
     }
