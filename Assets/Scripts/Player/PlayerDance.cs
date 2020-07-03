@@ -33,7 +33,7 @@ public class PlayerDance : MonoBehaviour
 
     void CheckDanceInput()
     {
-        if (Input.GetButtonDown("Dance1"))
+        if (Input.GetButton("Dance1"))
         { 
             SetDance(1);
             // start dance3
@@ -42,7 +42,7 @@ public class PlayerDance : MonoBehaviour
             SetDance(0);
         }
 
-        if (Input.GetButtonDown("Dance2"))
+        if (Input.GetButton("Dance2"))
         { 
              SetDance(2);
             
@@ -52,7 +52,7 @@ public class PlayerDance : MonoBehaviour
             SetDance(0);
         }
 
-        if (Input.GetButtonDown("Dance3"))
+        if (Input.GetButton("Dance3"))
         {  
              SetDance(3);
             // start dance3

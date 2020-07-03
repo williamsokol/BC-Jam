@@ -43,7 +43,7 @@ public class PlayerAnimController : MonoBehaviour
 
         if(PlayerDance.DanceState > 0)
         {   
-            print(PlayerDance.DanceState);
+            //print(PlayerDance.DanceState);
             
             animator.SetBool("Is Dancing", true);
             animator.SetInteger("Dance State",PlayerDance.DanceState);

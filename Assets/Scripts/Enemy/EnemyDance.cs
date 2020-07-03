@@ -57,9 +57,13 @@ public class EnemyDance : MonoBehaviour
                 enemyHp.hp -= 1;
             }else
             {
-                //while(PlayerDance.DanceState != PlayerDance.DanceGoal)
-                //    Hp.instance.playerHp -= .1f; 
+                while(PlayerDance.DanceState != PlayerDance.DanceGoal)
+                {
+                    Hp.instance.playerHp -= .2f;
+                    yield return danceSpeed;
+                }
             }
+
 
             yield return danceSpeed;
         }

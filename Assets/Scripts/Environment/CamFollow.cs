@@ -19,7 +19,7 @@ public class CamFollow : MonoBehaviour
     void FixedUpdate()
     {
         if(player != null)
-            transform.position = Vector2.SmoothDamp(transform.position,ChooseTarget(),ref velocity,.8f);
+            transform.position = Vector2.SmoothDamp(transform.position,ChooseTarget(),ref velocity,.4f);
     }
     Vector2 ChooseTarget()
     {
