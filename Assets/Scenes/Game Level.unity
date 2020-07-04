@@ -331,6 +331,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 116001445}
+  - {fileID: 218639127}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -365,6 +366,12 @@ MonoBehaviour:
   - {r: 0, g: 1, b: 0, a: 0.27450982}
   mat: {fileID: 2100000, guid: 2a0cf150ebe73f940b9ae183d41e9911, type: 2}
   colorGoal: {r: 0, g: 0, b: 0, a: 0}
+--- !u!4 &218639127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1027561756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &373397828
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,13 +515,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b5cbf427e519ad46aec7a5569766596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
   chordPlayer: {fileID: 963913502}
   platformDance: {fileID: 184318389}
   trakNumber: 0
   traks:
   - {fileID: 11400000, guid: 8dd6fdda4efbab9458ddec05bec88fce, type: 2}
-  - {fileID: 11400000, guid: 62365aa1e57146e45b4045208a33e84e, type: 2}
+  - {fileID: 11400000, guid: 8dd6fdda4efbab9458ddec05bec88fce, type: 2}
   MusicEvents: {fileID: 373397832}
 --- !u!95 &373397832
 Animator:
@@ -706,7 +712,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.16945532, g: 0.257743, b: 0.3018868, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -968,6 +974,80 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1027561756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 184318388}
+    m_Modifications:
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.008726465
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.999962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860072, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860073, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_Name
+      value: DiscoLight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040026839316860073, guid: a5018c7fec7525f48977baa08c4112b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5018c7fec7525f48977baa08c4112b1, type: 3}
 --- !u!1 &1049675708
 GameObject:
   m_ObjectHideFlags: 0

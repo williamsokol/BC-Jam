@@ -28,7 +28,16 @@ public class EnemyHp : MonoBehaviour
      public void UpdateHp()
     {
         hpbar.value = _hp;
+        if(_hp <= 0)
+        {
+            Die();
+        }
         
+    }
+    public void Die(){
+        
+        Destroy(gameObject);
+        EnemyDance.isDanceOff = false;
     }
 
     

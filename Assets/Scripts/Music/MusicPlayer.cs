@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
-    public float time;
+    
 
     public SFX chordPlayer;
     public PlatformDance platformDance;
@@ -20,13 +20,12 @@ public class MusicPlayer : MonoBehaviour
         musikPlayer = GetComponent<AudioSource>();
         trakNumber  = 0;
         MusicEvents = GetComponent<Animator>();
-        //musikPlayer.clip = traks[trakNumber].song;
-        //musikPlayer.Play();
+        
     }
 
      void Update()
     {
-        //time += Time.deltaTime;
+    
         if (!musikPlayer.isPlaying & trakNumber < traks.Length)
         {
             
@@ -44,10 +43,7 @@ public class MusicPlayer : MonoBehaviour
 
     void StartDance()
     {
-       
         platformDance.DoDance();
-        //print(time);
-        time = 0;
     }
 
     public void playChord(int pickedChord)

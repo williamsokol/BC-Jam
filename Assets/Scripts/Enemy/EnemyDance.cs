@@ -72,6 +72,7 @@ public class EnemyDance : MonoBehaviour
     void SetDance(int danceType)
     {
         sprite.sprite = enemySprites[danceType];
+        GameObject.Find("GameManager").GetComponent<LightColors>().ShiftColor(pickedDance-1);
         //PlayerDance.DanceGoal = pickedDance;
     }
    
