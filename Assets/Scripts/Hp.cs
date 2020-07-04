@@ -7,7 +7,7 @@ public class Hp : MonoBehaviour
 {
 
     public Slider hpbar;
-    public float _playerHp = 4;
+    public float _playerHp = 8;
 
     static public Hp instance;
 
@@ -31,8 +31,14 @@ public class Hp : MonoBehaviour
     public void UpdateHp()
     {
         hpbar.value = playerHp;
-        
+        if(playerHp <= 0)
+        {
+            print("dead");
+        }
     }
-
-    
+    public void Die(){
+        
+        Destroy(gameObject);
+        //EnemyDance.isDanceOff = false;
+    }
 }
