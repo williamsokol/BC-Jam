@@ -327,7 +327,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 60343789f947a9d43b17a25de87af65b, type: 3}
   - {fileID: 21300000, guid: 2a67154028da94a4c884233f14726bad, type: 3}
   - {fileID: 21300000, guid: 2484213dc73b5dc46862a462866ad432, type: 3}
-  sprite: {fileID: 0}
+  spriteAnim: {fileID: 0}
 --- !u!50 &2399995661001458349
 Rigidbody2D:
   serializedVersion: 4
@@ -417,9 +417,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 783024261
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2604849969620348523, guid: 428868e58c2c01f479dab80753f55ccd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
