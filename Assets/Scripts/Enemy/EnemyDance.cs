@@ -12,14 +12,14 @@ public class EnemyDance : MonoBehaviour
     public GameObject player;
 
     public Sprite[] enemySprites;
-    public SpriteRenderer sprite;
+    public Animator spriteAnim;
 
     public WaitForSeconds danceGap = new WaitForSeconds(.6f);
     public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
 
     void Start()
     {
-        sprite = GetComponentInChildren<SpriteRenderer>();
+        spriteAnim = GetComponentInChildren<Animator>();
         //print(danceGap);
     }
 
@@ -71,7 +71,8 @@ public class EnemyDance : MonoBehaviour
 
     void SetDance(int danceType)
     {
-        sprite.sprite = enemySprites[danceType];
+        spriteAnim.SetInteger("DanceType",danceType);
+        print(danceType);
         GameObject.Find("GameManager").GetComponent<LightColors>().ShiftColor(pickedDance-1);
         //PlayerDance.DanceGoal = pickedDance;
     }
