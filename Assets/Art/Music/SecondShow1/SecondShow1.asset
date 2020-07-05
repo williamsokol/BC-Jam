@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SecondShow1
   m_EditorClassIdentifier: 
   chords:
-  - {fileID: 8300000, guid: 284e4e0e6aaa5244b9fbe4b43acbe462, type: 3}
-  - {fileID: 8300000, guid: 5a038ddaf17d3034a92bb00e9599770c, type: 3}
-  - {fileID: 8300000, guid: 4163f7375090fb447a6eeeed0475b215, type: 3}
-  song: {fileID: 8300000, guid: 3a9228272a5f672499a5cecf3e7a659f, type: 3}
+  - {fileID: 8300000, guid: 1b8c4e7f8487a52459996ee40903fe1f, type: 3}
+  - {fileID: 8300000, guid: 328c7c11dd5d49745b7d0c871626dff7, type: 3}
+  - {fileID: 8300000, guid: f7c027598963a794c85499c67e5187e5, type: 3}
+  song: {fileID: 8300000, guid: 53b95ee70a1ca0a43a2e9511e579767b, type: 3}
