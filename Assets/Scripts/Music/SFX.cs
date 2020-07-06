@@ -19,7 +19,7 @@ public class SFX : MonoBehaviour
 
     public void SFXChords(int chord)
     {
-        //print(count);
+        print(chord);
         //count++;
         soundPlayer.clip = sounds[chord-1];
         soundPlayer.Play();

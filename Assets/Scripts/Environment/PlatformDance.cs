@@ -9,6 +9,7 @@ public class PlatformDance : MonoBehaviour
     public MusicPlayer musicPlayer;
     public void DoDance()
     {
+        print("test");
         if(EnemyDance.isDanceOff == false)
             StartCoroutine("Dance");
     }

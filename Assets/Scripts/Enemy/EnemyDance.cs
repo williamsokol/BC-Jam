@@ -14,8 +14,8 @@ public class EnemyDance : MonoBehaviour
     public Sprite[] enemySprites;
     public Animator spriteAnim;
 
-    public WaitForSeconds danceGap = new WaitForSeconds(.6f);
-    public WaitForSeconds danceSpeed = new WaitForSeconds(1f);
+    public WaitForSeconds danceGap = new WaitForSeconds(.7f);
+    public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
 
     void Start()
     {

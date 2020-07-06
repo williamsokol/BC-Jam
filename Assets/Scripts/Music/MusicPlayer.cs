@@ -20,6 +20,7 @@ public class MusicPlayer : MonoBehaviour
         musikPlayer = GetComponent<AudioSource>();
         trakNumber  = 0;
         MusicEvents = GetComponent<Animator>();
+        //StartDance();   
         
     }
 
@@ -28,12 +29,18 @@ public class MusicPlayer : MonoBehaviour
     
         if (!musikPlayer.isPlaying & trakNumber < traks.Length)
         {
-            
+           
             chordPlayer.sounds = traks[trakNumber].chords;
             musikPlayer.clip = traks[trakNumber].song;
             musikPlayer.Play();
+            
+            //find chord timings from music track script    
+            foreach(float time in traks[trakNumber].times)
+            {
+                Invoke("StartDance", time);
+            }
+
             trakNumber++;
-            MusicEvents.SetInteger("Song",trakNumber);
 
         }else if (!musikPlayer.isPlaying & trakNumber == traks.Length)
         {
@@ -43,7 +50,9 @@ public class MusicPlayer : MonoBehaviour
 
     void StartDance()
     {
+        
         platformDance.DoDance();
+       
     }
 
     public void playChord(int pickedChord)

@@ -6,6 +6,7 @@ using UnityEngine;
 public class MusicTrack : ScriptableObject
 {
     public AudioClip[] chords;
+    public float[] times;
 
     public AudioClip song;
 }

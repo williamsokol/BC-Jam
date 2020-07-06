@@ -23,6 +23,7 @@ public class Hp : MonoBehaviour
     {
         get {return _playerHp;}
         set {
+            //print(playerHp);
             _playerHp = value;
             UpdateHp();
         }
@@ -30,7 +31,9 @@ public class Hp : MonoBehaviour
 
     public void UpdateHp()
     {
+        
         hpbar.value = playerHp;
+        //print(playerHp);
         if(playerHp <= 0)
         {
             print("dead");
