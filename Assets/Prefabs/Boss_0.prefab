@@ -145,14 +145,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4244520553775334042}
   - component: {fileID: 7562910042273081660}
-  - component: {fileID: 1120755040587571452}
   m_Layer: 0
   m_Name: Boss_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4244520553775334042
 Transform:
   m_ObjectHideFlags: 0
@@ -161,7 +160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7985440103038036079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.517, y: 0, z: 0}
+  m_LocalPosition: {x: -0.001, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4762788994656616036}
@@ -203,9 +202,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 783024261
+  m_SortingLayer: 2
+  m_SortingOrder: 7
   m_Sprite: {fileID: 2749336523888890881, guid: 5a68214cef50b0b42b5b5c9a9172991b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -218,25 +217,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1120755040587571452
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7985440103038036079}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1da5292ccd64aa64b96d499c675888e5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4762788994619299227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -345,6 +325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794968390278972727, guid: 2e7d44a477b96c54e90c746e2a5d179f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7466540309472438331, guid: 2e7d44a477b96c54e90c746e2a5d179f,
         type: 3}
