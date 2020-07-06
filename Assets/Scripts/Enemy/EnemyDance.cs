@@ -15,7 +15,7 @@ public class EnemyDance : MonoBehaviour
     public Animator spriteAnim;
 
     public WaitForSeconds danceGap = new WaitForSeconds(.6f);
-    public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
+    public WaitForSeconds danceSpeed = new WaitForSeconds(1f);
 
     void Start()
     {
@@ -45,6 +45,8 @@ public class EnemyDance : MonoBehaviour
             
             //play animation
             pickedDance = Random.Range(1,4);
+
+            
             SetDance(pickedDance);
 
             yield return danceGap;

@@ -30,6 +30,11 @@ public class EnemyHp : MonoBehaviour
         hpbar.value = _hp;
         if(_hp <= 0)
         {
+            if (CinematicBarsController.Instance != null)
+            {
+                CinematicBarsController.Instance.HideBars();
+            }
+                
             Die();
         }
         
