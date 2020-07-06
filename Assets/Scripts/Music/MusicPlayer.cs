@@ -37,7 +37,7 @@ public class MusicPlayer : MonoBehaviour
             //find chord timings from music track script    
             foreach(float time in traks[trakNumber].times)
             {
-                Invoke("StartDance", time);
+                Invoke("StartDance", time-.5f);
             }
 
             trakNumber++;
