@@ -37,11 +37,14 @@ public class Hp : MonoBehaviour
         if(playerHp <= 0)
         {
             print("dead");
+            Die();
         }
     }
     public void Die(){
         
-        Destroy(gameObject);
+        
+        GameObject.Find("GameController").GetComponent<LevelLoader>().Lose();
+
         //EnemyDance.isDanceOff = false;
     }
 }
