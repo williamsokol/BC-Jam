@@ -10,7 +10,7 @@ public class PlatformDance : MonoBehaviour
     public void DoDance()
     {
         print("test");
-        if(EnemyDance.isDanceOff == false)
+        if(EnemyDance.isDanceOff == false && BossDance.isDanceOff == false)
             StartCoroutine("Dance");
     }
 

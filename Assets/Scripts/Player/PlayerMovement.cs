@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         
 
         //See if the jumping
-        if (Input.GetButtonDown("Jump") && IsGrounded() && PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false)
+        if (Input.GetButtonDown("Jump") && IsGrounded() && PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false && BossDance.isDanceOff == false)
         {
             rb.AddForce(transform.up * jumpForce);
             
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if(PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false){
+        if(PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false && BossDance.isDanceOff == false){
             transform.Translate( Vector2.right * movement);
         }
     }

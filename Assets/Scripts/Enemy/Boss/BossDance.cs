@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDance : MonoBehaviour
+public class BossDance : MonoBehaviour
 {
     static public bool isDanceOff;
     static public GameObject currentEnemy;
 
     int pickedDance;
-    public EnemyHp enemyHp;
+    public BossHp bossHP;
     public GameObject player;
 
     public Sprite[] enemySprites;
     public Animator spriteAnim;
+    public Animator bossAnimator;
 
     public WaitForSeconds danceGap = new WaitForSeconds(.7f);
     public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
+    
 
     void Start()
     {
@@ -45,8 +47,8 @@ public class EnemyDance : MonoBehaviour
             
             //play animation
             pickedDance = Random.Range(1,4);
-            
-            
+            Debug.Log("Move" + pickedDance);
+
             SetDance(pickedDance);
 
             yield return danceGap;
@@ -56,7 +58,8 @@ public class EnemyDance : MonoBehaviour
             if(PlayerDance.DanceState == PlayerDance.DanceGoal)
             {
 //                print("test");
-                enemyHp.hp -= 1;
+                bossHP.hp -= 1;
+                bossAnimator.SetTrigger("CorrectDance");
             }else
             {
                 while(PlayerDance.DanceState != PlayerDance.DanceGoal)
