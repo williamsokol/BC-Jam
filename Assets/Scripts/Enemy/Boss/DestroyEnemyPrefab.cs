@@ -8,7 +8,7 @@ public class DestroyEnemyPrefab : MonoBehaviour
     void stopDance()
     {
 
-        EnemyDance.isDanceOff = false;
+        BossDance.isDanceOff = false;
 
     }
 
