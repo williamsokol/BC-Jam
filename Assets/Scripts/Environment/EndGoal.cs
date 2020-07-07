@@ -10,8 +10,9 @@ public class EndGoal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       find = GameObject.Find("GameController");
-       levelLoader = find.GetComponent<LevelLoader>();
+        
+        levelLoader = GameObject.Find("GameController").GetComponent<LevelLoader>();
+
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class EndGoal : MonoBehaviour
            print("you win");
 
 
-           levelLoader.LoadNextLevel();
+           levelLoader.LoadNextLevel("LoadingLevel");
         }
        
     }

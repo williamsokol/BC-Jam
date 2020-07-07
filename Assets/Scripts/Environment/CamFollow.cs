@@ -25,7 +25,10 @@ public class CamFollow : MonoBehaviour
     {
         if(EnemyDance.isDanceOff == true)
         {
-            return (player.transform.position + EnemyDance.currentEnemy.transform.position) /2;
+            //I subtract .5 here cause the there is .5 on the cameras transform, because it looks better that way out of combat
+            Vector2 thing = (player.transform.position + EnemyDance.currentEnemy.transform.position) /2;
+            thing.x -=.5f;
+            return thing;
         }
         
         return player.transform.position;

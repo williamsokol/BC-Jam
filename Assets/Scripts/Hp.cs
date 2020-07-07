@@ -43,7 +43,7 @@ public class Hp : MonoBehaviour
     public void Die(){
         
         
-        GameObject.Find("GameController").GetComponent<LevelLoader>().Lose();
+        GameObject.Find("GameController").GetComponent<LevelLoader>().LoadNextLevel("LoseLevel");
 
         //EnemyDance.isDanceOff = false;
     }

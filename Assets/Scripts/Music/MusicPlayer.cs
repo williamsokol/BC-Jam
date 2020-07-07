@@ -9,7 +9,7 @@ public class MusicPlayer : MonoBehaviour
     public SFX chordPlayer;
     public PlatformDance platformDance;
 
-    // the time is a little off in unity for some reason
+    // the time is a little off in unity for some reason    
     public float musicOffset;
     private AudioSource musikPlayer;
     public int          trakNumber;
@@ -18,11 +18,11 @@ public class MusicPlayer : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         musikPlayer = GetComponent<AudioSource>();
         trakNumber  = 0;
         MusicEvents = GetComponent<Animator>();
-        //StartDance();   
+        //StartCoroutine(DieMusic(1));   
         
     }
 
@@ -62,5 +62,26 @@ public class MusicPlayer : MonoBehaviour
 //        print ("test");
         chordPlayer.SFXChords(pickedChord);
     }
+    
+    public void FadeMusic()
+    {
+        StartCoroutine(DieMusic(1));
+    }
+
+
+    public IEnumerator DieMusic ( float FadeTime) {
+        float startVolume = musikPlayer.volume;
+ 
+        print("test");
+        while (musikPlayer.volume > 0) {
+            musikPlayer.volume -= startVolume * Time.deltaTime / FadeTime;
+ 
+            yield return null;
+        }
+ 
+        
+        //audioSource.volume = startVolume;
+    }
+
 
 }

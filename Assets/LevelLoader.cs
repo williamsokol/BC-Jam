@@ -6,31 +6,38 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Fade fade;
+    private GameObject musicPlayer;
+    private MusicPlayer musicScript;
+    
 
     void Start()
     {
         DontDestroyOnLoad(gameObject);
         
-        print(fade);
+        
     }
 
-    public void LoadNextLevel(){
+    public void LoadNextLevel(string level){
+        
+        musicPlayer = GameObject.Find("Music Player");
+        print(musicPlayer);
+        if (musicPlayer != null){
+            musicScript = musicPlayer.GetComponent<MusicPlayer>();
+            musicScript.FadeMusic();
+        }
         fade = GameObject.Find("Fade").GetComponent<Fade>();
-        fade.FadeOut();
-        Invoke("LoadingLevel", 1f);
+        if(fade != null)
+            fade.FadeOut();
+       
+
+
+        // do the function put as a parameter in this one
+        Invoke(level, 1.5f);
         
     }
     void LoadingLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void Lose()
-    {
-        fade = GameObject.Find("Fade").GetComponent<Fade>();
-        print(fade);
-        fade.FadeOut();
-        Invoke("LoseLevel",1);
     }
     void LoseLevel()
     {
