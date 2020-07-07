@@ -1020,6 +1020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chordPlayer: {fileID: 963913502}
   platformDance: {fileID: 184318389}
+  musicOffset: -0.13
   trakNumber: 0
   traks:
   - {fileID: 11400000, guid: 62365aa1e57146e45b4045208a33e84e, type: 2}
@@ -4773,6 +4774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365705894720934144, guid: dfd8898f5a578ab4c9bd92e9f3488416,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfd8898f5a578ab4c9bd92e9f3488416, type: 3}

@@ -9,6 +9,8 @@ public class MusicPlayer : MonoBehaviour
     public SFX chordPlayer;
     public PlatformDance platformDance;
 
+    // the time is a little off in unity for some reason
+    public float musicOffset;
     private AudioSource musikPlayer;
     public int          trakNumber;
     public  MusicTrack[] traks;
@@ -37,7 +39,7 @@ public class MusicPlayer : MonoBehaviour
             //find chord timings from music track script    
             foreach(float time in traks[trakNumber].times)
             {
-                Invoke("StartDance", time-.5f);
+                Invoke("StartDance", time + musicOffset);
             }
 
             trakNumber++;
