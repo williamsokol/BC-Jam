@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2121c5d03ceefb4683440b48691a10c, type: 3}
+  m_Name: SecondShow2
+  m_EditorClassIdentifier: 
+  chords:
+  - {fileID: 8300000, guid: e53351c9e88640e45a70eebe7b643084, type: 3}
+  - {fileID: 8300000, guid: eaae38a9d29245044ad92e43a1149430, type: 3}
+  - {fileID: 8300000, guid: c3ea08535391fbf41bd1a1ec3db4e78f, type: 3}
+  times:
+  - 2.01
+  - 6.04
+  - 10.07
+  - 14.1
+  - 18.13
+  - 22.16
+  - 26.2
+  - 28.21
+  - 30.23
+  song: {fileID: 8300000, guid: 616a223d0c04e524898296f7645fa5dd, type: 3}
