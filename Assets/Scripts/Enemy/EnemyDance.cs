@@ -14,12 +14,14 @@ public class EnemyDance : MonoBehaviour
     public Sprite[] enemySprites;
     public Animator spriteAnim;
 
-    public WaitForSeconds danceGap = new WaitForSeconds(.7f);
+    public WaitForSeconds danceGap;
+    public float danceGapTime;
     public WaitForSeconds danceSpeed = new WaitForSeconds(.5f);
 
     void Start()
     {
         spriteAnim = GetComponentInChildren<Animator>();
+        danceGap = new WaitForSeconds(danceGapTime);
         //print(danceGap);
     }
 

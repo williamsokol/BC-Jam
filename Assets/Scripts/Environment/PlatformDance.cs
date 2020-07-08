@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformDance : MonoBehaviour
 {
     
-    public WaitForSeconds danceGap = new WaitForSeconds(.7f);
+    public WaitForSeconds danceGap = new WaitForSeconds(1.2f);
     public MusicPlayer musicPlayer;
     public void DoDance()
     {

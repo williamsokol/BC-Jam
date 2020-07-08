@@ -50,6 +50,12 @@ public class PlayerMovement : MonoBehaviour
         if(PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false && BossDance.isDanceOff == false){
             transform.Translate( Vector2.right * movement);
         }
+        // check if player fell
+        if(gameObject.transform.position.y <= -50)
+        {
+            Hp.instance.Die();
+        }
+
     }
     public bool IsGrounded()
     {
