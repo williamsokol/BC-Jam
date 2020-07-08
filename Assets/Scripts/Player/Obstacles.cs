@@ -18,7 +18,7 @@ public class Obstacles : MonoBehaviour
     {
         if (CollisionInfo.collider.tag == "Obstacle")
         {
-            Debug.Log("i hit an obstacle");
+            //Debug.Log("i hit an obstacle");
             Hp.instance.playerHp -= ObstacleDamage;
             StartCoroutine("WinkSprite");
         }
@@ -26,6 +26,7 @@ public class Obstacles : MonoBehaviour
    
     IEnumerator WinkSprite()
     {
+        
         if (playerGO != null && playerGO.enabled == true)
         {
             playerGO.enabled = false;
