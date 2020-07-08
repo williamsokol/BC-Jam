@@ -7,9 +7,10 @@ public class PlatformDance : MonoBehaviour
     
     public WaitForSeconds danceGap = new WaitForSeconds(1.2f);
     public MusicPlayer musicPlayer;
-    public void DoDance()
+    public void DoDance(MusicPlayer caller)
     {
         //print("test");
+        musicPlayer = caller;
         if(EnemyDance.isDanceOff == false && BossDance.isDanceOff == false)
             StartCoroutine("Dance");
     }

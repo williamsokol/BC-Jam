@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SFXIntanciator : MonoBehaviour
+public class asdasSFX : MonoBehaviour
 {
+    //int count =0;
+    private AudioSource soundPlayer;
 
-    public SFX[] Sounds;
+    public AudioClip loadLevelNoise;
+    //public AudioClip playerJumpNoise;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        soundPlayer = GetComponent<AudioSource>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void MenuNoise()
     {
-        
+        soundPlayer.clip = loadLevelNoise;
+        soundPlayer.Play();
     }
+    
+    
 }

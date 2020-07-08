@@ -18,6 +18,8 @@ public class Hp : MonoBehaviour
     {
         hpbar = gameObject.GetComponent<Slider>();
         instance = this;
+        hpbar.maxValue = _playerHp;
+        hpbar.value = _playerHp;
     }
     
     // runs every time playerHp is changed

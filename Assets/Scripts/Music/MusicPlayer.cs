@@ -23,6 +23,7 @@ public class MusicPlayer : MonoBehaviour
         musikPlayer = GetComponent<AudioSource>();
         trakNumber  = 0;
         MusicEvents = GetComponent<Animator>();
+        platformDance = GameObject.Find("GameManager").GetComponent<PlatformDance>();
         //StartCoroutine(DieMusic(1));   
         
     }
@@ -54,7 +55,7 @@ public class MusicPlayer : MonoBehaviour
     void StartDance()
     {
         
-        platformDance.DoDance();
+        platformDance.DoDance(this);
        
     }
 

@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public float movement;
     public float moveSpeed = 5;
     public float jumpForce = 5;
+    public SFX sfx;
     
     //public bool crouched;
 
@@ -22,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb  = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        
         
 
     }
@@ -39,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded() && PlayerDance.DanceState < 1 && EnemyDance.isDanceOff == false && BossDance.isDanceOff == false)
         {
             rb.AddForce(transform.up * jumpForce);
+            
             
         }
         

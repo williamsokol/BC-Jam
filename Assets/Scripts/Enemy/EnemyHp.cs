@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyHp : MonoBehaviour
 {
+    public SFX sfx2;
     public Slider hpbar;
     private float _hp = 6;
 
@@ -21,6 +22,7 @@ public class EnemyHp : MonoBehaviour
 
     void Start()
     {
+        sfx2 = GameObject.Find("Sfx 2").GetComponent<SFX>();
         hpbar.maxValue = _hp;
     }
 
@@ -28,6 +30,8 @@ public class EnemyHp : MonoBehaviour
      public void UpdateHp()
     {
         hpbar.value = _hp;
+        sfx2.EnemyHurt();
+
         if(_hp <= 0)
         {
             if (CinematicBarsController.Instance != null)
