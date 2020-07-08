@@ -35,7 +35,9 @@ public class Hp : MonoBehaviour
     {
         
         hpbar.value = playerHp;
-        sfx.PlayerHurt();
+        if(EnemyDance.isDanceOff == false)
+            sfx.PlayerHurt();
+            
         //print(playerHp);
         if(playerHp <= 0 && dying == false)
         {
