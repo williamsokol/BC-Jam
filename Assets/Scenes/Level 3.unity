@@ -969,6 +969,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 414961821}
     m_Modifications:
+    - target: {fileID: 2093978257754694113, guid: 793ae6018fb88fc46a32be9bf4215f7b,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4814337775676446287, guid: 793ae6018fb88fc46a32be9bf4215f7b,
         type: 3}
       propertyPath: m_Name
@@ -1797,7 +1802,6 @@ MonoBehaviour:
   trakNumber: 0
   traks:
   - {fileID: 11400000, guid: 62365aa1e57146e45b4045208a33e84e, type: 2}
-  - {fileID: 11400000, guid: 8dd6fdda4efbab9458ddec05bec88fce, type: 2}
   MusicEvents: {fileID: 373397832}
 --- !u!95 &373397832
 Animator:
@@ -6589,6 +6593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502599496909712227, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4107349646466584912, guid: e5cfc32e978ea044bb33d41967f03f6d,
         type: 3}

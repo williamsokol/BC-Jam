@@ -10,19 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2121c5d03ceefb4683440b48691a10c, type: 3}
-  m_Name: Furkeshu1
+  m_Name: Furkeshu2
   m_EditorClassIdentifier: 
   chords:
   - {fileID: 8300000, guid: bfbaca1162ddaeb40ad0ea1d2f8a616a, type: 3}
-  - {fileID: 8300000, guid: 31d1a3cec3c4c60469dbb2c7c0591beb, type: 3}
   - {fileID: 8300000, guid: 9e300d08a05c2b747a407b55f59f0bcd, type: 3}
+  - {fileID: 8300000, guid: 31d1a3cec3c4c60469dbb2c7c0591beb, type: 3}
   times:
-  - 1.1
-  - 2
-  - 5.17
-  - 8.14
-  - 11.01
-  - 15.11
-  - 17
-  - 18.14
-  song: {fileID: 8300000, guid: fdef7996908237241b691b2da7e5a0d5, type: 3}
+  - 1.01
+  - 1.09
+  - 2.01
+  - 3.01
+  song: {fileID: 8300000, guid: 81aa2451dc056c0459e786bdfcf3bb69, type: 3}

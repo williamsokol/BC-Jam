@@ -1603,7 +1603,6 @@ MonoBehaviour:
   trakNumber: 0
   traks:
   - {fileID: 11400000, guid: 62365aa1e57146e45b4045208a33e84e, type: 2}
-  - {fileID: 11400000, guid: 8dd6fdda4efbab9458ddec05bec88fce, type: 2}
   MusicEvents: {fileID: 373397832}
 --- !u!95 &373397832
 Animator:
