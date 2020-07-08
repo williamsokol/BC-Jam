@@ -37,7 +37,7 @@ TextureImporter:
     second: Cloud D2
   - first:
       213: -1809999464775804283
-    second: Fondo Set 1_11
+    second: Boat
   - first:
       213: -1862447098393654183
     second: Cloud D3
@@ -133,7 +133,7 @@ TextureImporter:
     second: Cloud D2
   - first:
       213: -1290160129386007520
-    second: Fondo Set 1_11
+    second: Boat
   - first:
       213: -8657969514515814861
     second: Cloud D3
@@ -525,7 +525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fondo Set 1_11
+      name: Boat
       rect:
         serializedVersion: 2
         x: 10
