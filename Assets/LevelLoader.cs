@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public Fade fade;
+    public GameObject fade;
+    private Fade fadeScript;
     private GameObject musicPlayer;
     private MusicPlayer musicScript;
     
@@ -20,15 +21,15 @@ public class LevelLoader : MonoBehaviour
     public void LoadNextLevel(string level){
         
         musicPlayer = GameObject.Find("Music Player");
-        print(musicPlayer);
         if (musicPlayer != null){
             musicScript = musicPlayer.GetComponent<MusicPlayer>();
             musicScript.FadeMusic();
-        }
-        fade = GameObject.Find("Fade").GetComponent<Fade>();
-        if(fade != null)
-            fade.FadeOut();
-       
+        }//else{Debug.LogError("no MusicPlayer in scene");}
+        fade = GameObject.Find("Fade");
+        if(fade != null){
+            fadeScript = fade.GetComponent<Fade>();
+            fadeScript.FadeOut();
+        }//else{Debug.LogError("no fade in scene");}
 
 
         // do the function put as a parameter in this one

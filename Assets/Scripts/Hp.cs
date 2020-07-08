@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Hp : MonoBehaviour
 {
 
+    private bool dying = false;
     public Slider hpbar;
     public float _playerHp = 8;
 
@@ -34,10 +35,11 @@ public class Hp : MonoBehaviour
         
         hpbar.value = playerHp;
         //print(playerHp);
-        if(playerHp <= 0)
+        if(playerHp <= 0 && dying == false)
         {
             print("dead");
             Die();
+            dying = true;
         }
     }
     public void Die(){
