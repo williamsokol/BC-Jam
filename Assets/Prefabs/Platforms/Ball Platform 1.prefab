@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9043348680516570027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.009, y: 2.393, z: 0}
+  m_LocalPosition: {x: -0.009, y: 2.539, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9043348682318246121}
@@ -69,10 +69,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 783024261
   m_SortingLayer: 2
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 6275435763444093208, guid: 333a2615f9f252040be34d3d2e8ada09,
     type: 3}
-  m_Color: {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -92,10 +92,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9043348682318246121}
   - component: {fileID: 9043348682318246120}
-  - component: {fileID: 9043348682318246122}
+  - component: {fileID: 9168824749296708352}
   m_Layer: 8
-  m_Name: Spike Ball
-  m_TagString: Obstacle
+  m_Name: Ball Platform 1
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,8 +153,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 783024261
   m_SortingLayer: 2
-  m_SortingOrder: 6
-  m_Sprite: {fileID: 6455498680192229817, guid: 333a2615f9f252040be34d3d2e8ada09,
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 4134264623055075893, guid: 333a2615f9f252040be34d3d2e8ada09,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -166,8 +166,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &9043348682318246122
-CircleCollider2D:
+--- !u!61 &9168824749296708352
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -175,10 +175,20 @@ CircleCollider2D:
   m_GameObject: {fileID: 9043348682318246125}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: e855435b565962e4dbfbd698500ba00a, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: 0}
+  m_Offset: {x: 0.014703274, y: -0.033082485}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.41538462, y: 0.43076923}
+    newSize: {x: 0.43076923, y: 0.44615385}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.15
+  m_Size: {x: 0.31246185, y: 0.36460426}
+  m_EdgeRadius: 0
