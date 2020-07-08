@@ -7,6 +7,7 @@ public class MusicPlayer : MonoBehaviour
     
 
     public SFX chordPlayer;
+    public SFX sfxPlayer;
     public PlatformDance platformDance;
 
     // the time is a little off in unity for some reason    
