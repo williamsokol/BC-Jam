@@ -17,6 +17,13 @@ public class LevelLoader : MonoBehaviour
         
         
     }
+    void Update()
+    {
+        if(Input.GetButtonDown("SkipLevel"))
+        {
+            LoadNextLevel("LoadingLevel");
+        }
+    }
 
     public void LoadNextLevel(string level){
         
@@ -43,5 +50,9 @@ public class LevelLoader : MonoBehaviour
     void LoseLevel()
     {
         SceneManager.LoadScene("LossScene");
+    }
+    void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

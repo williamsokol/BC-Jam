@@ -7,6 +7,7 @@ public class SFX : MonoBehaviour
     //int count =0;
     private AudioSource soundPlayer;
     public AudioClip[] sounds;
+    public AudioClip playerHurtNoise;
     // Start is called before the first frame update
     void Awake()
     {
@@ -22,6 +23,12 @@ public class SFX : MonoBehaviour
         //print(chord);
         //count++;
         soundPlayer.clip = sounds[chord-1];
+        soundPlayer.Play();
+    }
+
+    public void PlayerHurt()
+    {
+        soundPlayer.clip = playerHurtNoise;
         soundPlayer.Play();
     }
     

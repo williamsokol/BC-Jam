@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Hp : MonoBehaviour
 {
 
+    public SFX sfx;
     private bool dying = false;
     public Slider hpbar;
     public float _playerHp = 8;
@@ -34,6 +35,7 @@ public class Hp : MonoBehaviour
     {
         
         hpbar.value = playerHp;
+        sfx.PlayerHurt();
         //print(playerHp);
         if(playerHp <= 0 && dying == false)
         {

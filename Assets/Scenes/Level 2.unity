@@ -1598,11 +1598,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chordPlayer: {fileID: 963913502}
+  sfxPlayer: {fileID: 0}
   platformDance: {fileID: 184318389}
   musicOffset: -0.13
   trakNumber: 0
   traks:
-  - {fileID: 11400000, guid: 62365aa1e57146e45b4045208a33e84e, type: 2}
+  - {fileID: 11400000, guid: 8dd6fdda4efbab9458ddec05bec88fce, type: 2}
   MusicEvents: {fileID: 373397832}
 --- !u!95 &373397832
 Animator:
@@ -3373,6 +3374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds: []
+  playerHurtNoise: {fileID: 8300000, guid: 5ba5e56c69fe18f4b8581bf634fbb998, type: 3}
 --- !u!4 &963913503
 Transform:
   m_ObjectHideFlags: 0
@@ -5073,6 +5075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07be4efbc49943046a481897caa274cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfx: {fileID: 963913502}
   hpbar: {fileID: 0}
   _playerHp: 4
 --- !u!114 &1490209144
