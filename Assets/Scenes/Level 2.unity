@@ -2048,6 +2048,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 414961821}
     m_Modifications:
+    - target: {fileID: 2725505915633004294, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 4107349646466584912, guid: e5cfc32e978ea044bb33d41967f03f6d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2107,6 +2112,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillard Road (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039840772236615859, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260089129626981533, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5cfc32e978ea044bb33d41967f03f6d, type: 3}
@@ -4926,7 +4941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfx: {fileID: 634185462}
   hpbar: {fileID: 0}
-  _playerHp: 4
+  _playerHp: 8
 --- !u!114 &1490209144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6994,6 +7009,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 414961821}
     m_Modifications:
+    - target: {fileID: 2725505915633004294, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 4107349646466584912, guid: e5cfc32e978ea044bb33d41967f03f6d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7053,6 +7073,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillard Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039840772236615859, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260089129626981533, guid: e5cfc32e978ea044bb33d41967f03f6d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5cfc32e978ea044bb33d41967f03f6d, type: 3}

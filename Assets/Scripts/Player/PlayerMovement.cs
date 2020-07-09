@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
             transform.Translate( Vector2.right * movement);
         }
         // check if player fell
-        if(gameObject.transform.position.y <= -50)
+        if(gameObject.transform.position.y <= -20)
         {
             Hp.instance.Die();
         }

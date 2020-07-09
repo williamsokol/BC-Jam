@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     private Fade fadeScript;
     private GameObject musicPlayer;
     private MusicPlayer musicScript;
+    private int lastLevel;
     
 
     void Start()
@@ -27,6 +28,9 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel(string level){
         
+         ;  
+        print(lastLevel);
+
         musicPlayer = GameObject.Find("Music Player");
         if (musicPlayer != null){
             musicScript = musicPlayer.GetComponent<MusicPlayer>();
@@ -46,6 +50,7 @@ public class LevelLoader : MonoBehaviour
     void LoadingLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        lastLevel = SceneManager.GetActiveScene().buildIndex+1;
     }
     void LoseLevel()
     {
@@ -54,5 +59,9 @@ public class LevelLoader : MonoBehaviour
     void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    void LastLevel()
+    {
+        SceneManager.LoadScene(lastLevel);
     }
 }

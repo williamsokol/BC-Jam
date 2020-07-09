@@ -16,4 +16,8 @@ public class MenuButtonFinder : MonoBehaviour
     {
         levelLoader.LoadNextLevel("MainMenu");     
     }
+    public void LoadLastLevel()
+    {
+        levelLoader.LoadNextLevel("LastLevel");     
+    }
 }
