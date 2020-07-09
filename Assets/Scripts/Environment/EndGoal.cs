@@ -20,7 +20,7 @@ public class EndGoal : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         //print("you windawda");
         if (collision.gameObject.tag == "Player")

@@ -16,7 +16,7 @@ public class TutorialSpecial : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter2D(Collider2D other)
     {
-        print("test");
+        //print("test");
         if(other.tag == "Player")
         {
             sfxObject.SetActive(true);

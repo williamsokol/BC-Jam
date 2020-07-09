@@ -20,6 +20,7 @@ public class EnemyDance : MonoBehaviour
 
     void Start()
     {
+        isDanceOff = false;
         spriteAnim = GetComponentInChildren<Animator>();
         danceGap = new WaitForSeconds(danceGapTime);
         //print(danceGap);

@@ -20,16 +20,17 @@ public class LevelLoader : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetButtonDown("SkipLevel"))
+        if(Input.GetButtonDown("SkipLevel") && (SceneManager.GetActiveScene().buildIndex <= 3))
         {
+            print(SceneManager.GetActiveScene().buildIndex);
             LoadNextLevel("LoadingLevel");
         }
     }
 
     public void LoadNextLevel(string level){
         
-         ;  
-        print(lastLevel);
+         
+        //  print(lastLevel);
 
         musicPlayer = GameObject.Find("Music Player");
         if (musicPlayer != null){

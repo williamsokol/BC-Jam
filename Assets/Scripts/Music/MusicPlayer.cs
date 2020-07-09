@@ -74,7 +74,7 @@ public class MusicPlayer : MonoBehaviour
     public IEnumerator DieMusic ( float FadeTime) {
         float startVolume = musikPlayer.volume;
  
-        print("test");
+        //print("test");
         while (musikPlayer.volume > 0) {
             musikPlayer.volume -= startVolume * Time.deltaTime / FadeTime;
  

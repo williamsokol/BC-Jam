@@ -5331,28 +5331,13 @@ GameObject:
   - component: {fileID: 1594761112}
   - component: {fileID: 1594761111}
   - component: {fileID: 1594761110}
-  - component: {fileID: 1594761109}
   m_Layer: 0
   m_Name: Wall (1)
-  m_TagString: Finish
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1594761109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594761108}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e81f63a800cef745a377ac5b8f19ac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  find: {fileID: 0}
-  levelLoader: {fileID: 0}
 --- !u!61 &1594761110
 BoxCollider2D:
   m_ObjectHideFlags: 0
