@@ -47,6 +47,8 @@ MonoBehaviour:
   sounds: []
   playerHurtNoise: {fileID: 8300000, guid: 5ba5e56c69fe18f4b8581bf634fbb998, type: 3}
   enemyHurtNoise: {fileID: 8300000, guid: 09a3c773c347e2f4098ba0e19bdf1467, type: 3}
+  bossHurtNoise: {fileID: 8300000, guid: 76bc246fc5c64e7488d67c68249470d0, type: 3}
+  bossDeadNoise: {fileID: 8300000, guid: 87f4b702090b75e42ae0c81e62b56ee6, type: 3}
 --- !u!82 &8564766979387619516
 AudioSource:
   m_ObjectHideFlags: 0
@@ -190,6 +192,8 @@ MonoBehaviour:
   sounds: []
   playerHurtNoise: {fileID: 0}
   enemyHurtNoise: {fileID: 0}
+  bossHurtNoise: {fileID: 0}
+  bossDeadNoise: {fileID: 0}
 --- !u!82 &5613468885783799602
 AudioSource:
   m_ObjectHideFlags: 0

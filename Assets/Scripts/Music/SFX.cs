@@ -9,6 +9,8 @@ public class SFX : MonoBehaviour
     public AudioClip[] sounds;
     public AudioClip playerHurtNoise;
     public AudioClip enemyHurtNoise;
+    public AudioClip bossHurtNoise;
+    public AudioClip bossDeadNoise;
     //public AudioClip playerJumpNoise;
     // Start is called before the first frame update
     void Awake()
@@ -38,6 +40,15 @@ public class SFX : MonoBehaviour
         soundPlayer.clip = enemyHurtNoise;
         soundPlayer.Play();
     }
-    
+    public void BossHurt()
+    {
+        soundPlayer.clip = bossHurtNoise;
+        soundPlayer.Play();
+    }
+    public void BossDead()
+    {
+        soundPlayer.clip = bossDeadNoise;
+        soundPlayer.Play();
+    }
     
 }

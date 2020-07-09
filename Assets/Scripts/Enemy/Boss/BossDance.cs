@@ -22,6 +22,7 @@ public class BossDance : MonoBehaviour
     void Start()
     {
         spriteAnim = GetComponentInChildren<Animator>();
+        
         //print(danceGap);
     }
 
@@ -47,7 +48,7 @@ public class BossDance : MonoBehaviour
             
             //play animation
             pickedDance = Random.Range(1,4);
-            Debug.Log("Move" + pickedDance);
+            //Debug.Log("Move" + pickedDance);
 
             SetDance(pickedDance);
 
@@ -77,7 +78,7 @@ public class BossDance : MonoBehaviour
     void SetDance(int danceType)
     {
         spriteAnim.SetInteger("DanceType",danceType);
-        print(danceType);
+        //print(danceType);
         GameObject.Find("GameManager").GetComponent<LightColors>().ShiftColor(pickedDance-1);
         //PlayerDance.DanceGoal = pickedDance;
     }
