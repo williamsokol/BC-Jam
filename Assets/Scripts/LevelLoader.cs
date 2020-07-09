@@ -30,7 +30,7 @@ public class LevelLoader : MonoBehaviour
     public void LoadNextLevel(string level){
         
          
-        //  print(lastLevel);
+        print("lastLevel");
 
         musicPlayer = GameObject.Find("Music Player");
         if (musicPlayer != null){
