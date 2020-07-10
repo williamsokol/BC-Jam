@@ -26,7 +26,7 @@ public class EndGoal : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
            print("you win");
-
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
            levelLoader.LoadNextLevel("LoadingLevel");
         }

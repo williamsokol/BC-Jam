@@ -2609,6 +2609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndGoal 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8510696553781435676, guid: 5aa4fd2fde4da7742a7d5cd69a0368c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8510696553781435677, guid: 5aa4fd2fde4da7742a7d5cd69a0368c3,
         type: 3}
       propertyPath: m_LocalPosition.x
